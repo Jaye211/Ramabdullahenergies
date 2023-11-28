@@ -1,0 +1,58 @@
+a {
+    text-decoration: none;
+    color: #000;
+    size: 20px;
+}
+
+a:hover {
+    color: green;
+    transform: scale(1.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    gap: 10px;
+    margin-bottom: 3rem;
+}
+
+img {
+    filter: grayscale(100%);
+    position: relative;
+    top: 0;
+    transition: 0.5s;
+}
+
+.about {
+    margin-left: 500px;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.about-text {
+    margin-top: 100px;
+}
+
+.footer-sectionabout {
+    background-color: rgb(8, 8, 29);
+    margin-top: 2rem;
+    color: white;
+    padding-left: 250px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    height: 6rem;
+}
+
+.contact {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+span {
+    color: green;
+}

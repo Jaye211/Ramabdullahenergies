@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+    color: #000;
+    size: 20px;
+}
+
+a:hover {
+    color: green;
+    transform: scale(1.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    gap: 10px;
+    margin-bottom: 3rem;
+}
+
+.contactus {
+    background-color: rgb(8, 8, 29);
+    margin-top: 2rem;
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    height: 20rem;
+}
+
+span {
+    color: green;
+}
+
+
+/* Hide the link that should open and close the navigation on small screens */
+
+@media screen and (max-width: 600px) {
+    .nav {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 14px 16px;
+        cursor: pointer;
+    }
+}
